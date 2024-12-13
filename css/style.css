@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root {
+    --primary: #E76F51;
+    --secondary: #2a9d8f;
+    --dark: #6C757D;
+    --light: #f8f9fa;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 10px;
+}
+
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    background-color: var(--light);
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: .7rem;
+    line-height: 1.3;
+}
