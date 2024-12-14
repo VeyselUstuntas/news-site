@@ -71,6 +71,7 @@ p {
     color: #fff;
     padding: .4rem 1.6rem;
     text-align: center;
+    border-radius: .5rem;
 }
 
 .btn-light {
@@ -153,8 +154,8 @@ p {
 }
 
 .py-2 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .px-1 {
@@ -318,4 +319,74 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+}
+
+/* footer */
+
+#main-footer{
+    background-color: var(--dark);
+    color: #fff;
+    margin-top: 2rem;
+}
+
+#main-footer .footer-container img{
+    width: 15rem;
+}
+
+#main-footer .footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:2rem;
+    justify-content: center;
+}
+
+#main-footer .footer-container > div:last-child{
+    display: grid;
+    grid-column: 1 / span 4 ;
+    background-color: #333;
+    text-align: center;
+    padding: .8rem;
+}
+
+#main-footer .footer-container ul li a{
+    color: #fff;
+    margin-right: 1rem;
+    transition: all .3s;
+}
+
+#main-footer .footer-container input[type='email']{
+    width: 90%;
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+#main-footer .footer-container input[type='submit']{
+    width: 90%;
+    transition: all .2s;
+
+}
+
+#main-footer .footer-container ul li {
+    padding: .5rem;
+    border-bottom: dotted .1rem #333;
+    width: 90%;
+}
+
+#main-footer .footer-container .social-icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    color: #fff;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+}
+#main-footer .footer-container .social-icons a{
+    color: #fff;
+    margin-right: 1rem;
+    transition: all .3s;
+}
+
+
+#main-footer .footer-container a:hover{
+    color: var(--primary);
 }
