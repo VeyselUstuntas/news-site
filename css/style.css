@@ -307,3 +307,15 @@ p {
 #header .header-content{
     z-index: 3;
 }
+
+/* articles */
+
+#main-articles{
+    background-color: var(--light);
+}
+
+#main-articles .articles-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
