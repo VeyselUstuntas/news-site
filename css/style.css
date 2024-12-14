@@ -351,6 +351,12 @@ p {
     padding: .8rem;
 }
 
+#main-footer .footer-container ul li {
+    padding: .5rem;
+    border-bottom: dotted .1rem #333;
+    width: 90%;
+}
+
 #main-footer .footer-container ul li a{
     color: #fff;
     margin-right: 1rem;
@@ -369,11 +375,6 @@ p {
 
 }
 
-#main-footer .footer-container ul li {
-    padding: .5rem;
-    border-bottom: dotted .1rem #333;
-    width: 90%;
-}
 
 #main-footer .footer-container .social-icons{
     display: grid;
@@ -397,9 +398,6 @@ p {
 
 /* article hmtl*/
 
-#article{
-
-}
 
 #article .page-container{
     display: grid;
