@@ -112,7 +112,7 @@ p {
 }
 
 .bg-secondary{
-    background-color: var(--secondary);
+    background-color: var(--secondary) !important;
     color: #fff;
 }
 
@@ -200,6 +200,9 @@ p {
     margin-bottom: 1.5rem;
 }
 
+.my-1{
+    margin: 1.5rem 0;
+}
 
 .card {
     background-color: #fff;
@@ -388,5 +391,46 @@ p {
 
 
 #main-footer .footer-container a:hover{
+    color: var(--primary);
+}
+
+
+/* article hmtl*/
+
+#article{
+
+}
+
+#article .page-container{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin: 2.5rem 0;
+    gap: 2rem;
+}
+
+#article .page-container > *:first-child{
+    grid-row: 1 / span 3;
+}
+
+#article .page-container .meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .7rem;
+    background-color: #eee;
+
+}
+
+#article .page-container .meta .category{
+    margin-top: .5rem;
+}
+
+#article .page-container #categories ul li{
+    padding: .5rem;
+    border-bottom: dotted .06rem #555;
+    width: 90%;
+}
+
+#article .page-container #categories ul li a:hover{
     color: var(--primary);
 }
